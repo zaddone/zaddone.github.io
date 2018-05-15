@@ -6,9 +6,19 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2018 12:56:46 +0800</lastBuildDate>
     
 	<atom:link href="https://zaddone.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://zaddone.github.io/about/</link>
+      <pubDate>Tue, 15 May 2018 12:56:46 +0800</pubDate>
+      
+      <guid>https://zaddone.github.io/about/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
