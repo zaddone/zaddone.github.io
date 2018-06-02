@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zaddone.github.io/post/first/</loc>
-    <lastmod>2018-06-02T22:15:16+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zaddone.github.io/about/</loc>
     <lastmod>2018-05-15T12:56:46+08:00</lastmod>
   </url>
@@ -18,19 +13,13 @@
   </url>
   
   <url>
-    <loc>https://zaddone.github.io/post/</loc>
-    <lastmod>2018-06-02T22:15:16+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://zaddone.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://zaddone.github.io/</loc>
-    <lastmod>2018-06-02T22:15:16+08:00</lastmod>
+    <lastmod>2018-05-15T12:56:46+08:00</lastmod>
     <priority>0</priority>
   </url>
   
