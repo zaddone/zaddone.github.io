@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zaddone Site</title>
-    <link>https://zaddone.github.io/</link>
-    <description>Recent content on Zaddone Site</description>
+    <title>Zhs on Zaddone Site</title>
+    <link>https://zaddone.github.io/zh/</link>
+    <description>Recent content in Zhs on Zaddone Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-us</language>
     <lastBuildDate>Sat, 02 Jun 2018 22:09:54 +0800</lastBuildDate>
     
-	<atom:link href="https://zaddone.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zaddone.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,15 +17,6 @@
       <pubDate>Sat, 02 Jun 2018 22:09:54 +0800</pubDate>
       
       <guid>https://zaddone.github.io/zh/post/first/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://zaddone.github.io/about/</link>
-      <pubDate>Tue, 15 May 2018 12:56:46 +0800</pubDate>
-      
-      <guid>https://zaddone.github.io/about/</guid>
       <description></description>
     </item>
     
