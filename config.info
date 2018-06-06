@@ -1,0 +1,7 @@
+Imap = "imap.qq.com:993"
+User = "zaddone@qq.com"
+Pass = "omngxacjppjucaae"
+MBox = "INBOX"
+BlogBox = "blog"
+MsgCount = 11
+Enduid = 0
