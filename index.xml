@@ -6,10 +6,19 @@
     <description>Recent content on Zaddone Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-us</language>
-    <lastBuildDate>Wed, 06 Jun 2018 19:09:56 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 19:16:01 +0800</lastBuildDate>
     
 	<atom:link href="https://zaddone.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>发布测试</title>
+      <link>https://zaddone.github.io/post/2018/june_6_3/</link>
+      <pubDate>Wed, 06 Jun 2018 19:16:01 +0800</pubDate>
+      
+      <guid>https://zaddone.github.io/post/2018/june_6_3/</guid>
+      <description>没完没了的测试，测试测试测试测试测试测试测试测试测试测试测试测试测试测试</description>
+    </item>
     
     <item>
       <title>文章自动发布测试</title>
