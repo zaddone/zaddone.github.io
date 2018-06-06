@@ -6,18 +6,46 @@
     <description>Recent content in Posts on Zaddone Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-us</language>
-    <lastBuildDate>Sun, 03 Jun 2018 00:08:15 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 09:31:48 +0800</lastBuildDate>
     
 	<atom:link href="https://zaddone.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>June_3</title>
-      <link>https://zaddone.github.io/post/2018/june_3/</link>
-      <pubDate>Sun, 03 Jun 2018 00:08:15 +0800</pubDate>
+      <title>tewerw12</title>
+      <link>https://zaddone.github.io/post/2018/june_6_1/</link>
+      <pubDate>Wed, 06 Jun 2018 09:31:48 +0800</pubDate>
       
-      <guid>https://zaddone.github.io/post/2018/june_3/</guid>
-      <description></description>
+      <guid>https://zaddone.github.io/post/2018/june_6_1/</guid>
+      <description>adfasdfasdfafas</description>
+    </item>
+    
+    <item>
+      <title>test23242424</title>
+      <link>https://zaddone.github.io/post/2018/june_6/</link>
+      <pubDate>Wed, 06 Jun 2018 09:29:25 +0800</pubDate>
+      
+      <guid>https://zaddone.github.io/post/2018/june_6/</guid>
+      <description>afasdfasdfasdfsaasdfasdfasfdas</description>
+    </item>
+    
+    <item>
+      <title>title中文</title>
+      <link>https://zaddone.github.io/post/2018/june_4_1/</link>
+      <pubDate>Mon, 04 Jun 2018 22:25:20 +0800</pubDate>
+      
+      <guid>https://zaddone.github.io/post/2018/june_4_1/</guid>
+      <description>阿的发送的发送的发送的发送的法阿斯顿发送的发送的发送阿斯顿法三法司的发送的
+asdfasdfasdfasdfasfasdfasdfasdfasdfaasdfasfasf</description>
+    </item>
+    
+    <item>
+      <title>test测试</title>
+      <link>https://zaddone.github.io/post/2018/june_4/</link>
+      <pubDate>Mon, 04 Jun 2018 21:18:59 +0800</pubDate>
+      
+      <guid>https://zaddone.github.io/post/2018/june_4/</guid>
+      <description>asdfasdfasdfasdfasdfasdfas fasdf asfdasd fas dfasd df asfd asdas 中文阿斯顿法司法四方阿斯</description>
     </item>
     
   </channel>
