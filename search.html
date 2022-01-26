@@ -56,25 +56,17 @@
 		if (r != null) return decodeURIComponent(r[2]);
 		return null;
 	}
-	function addItem(v){
-			h = '<div class="bin col-sm-6 col-md-2"><a class="card link-secondary text-decoration-none" href="/'+v.Dir+'/'+v.Name+'.html"><img class="card-img-top" src="'+v.Img+'" alt="'+v.Name+'">'
-			h += '<div class="card-body">'
-			h += '<p>'+v.Name+'</p>'
-			h += '</div></a></div>'
-			return h
-		}
+
 	$(document).ready(function() {
 		let k = getUrlParam('q')
 		if (k) {
 			$(".search_word").val(k)
 			$("title").text(k)
 			$.get("https://zaddone.tk/search/?q=" + encodeURIComponent(k), function(res) {
-				console.log(res)
-					let h=""
-					JSON.parse(res).forEach(function(val){
-						h+= addItem(val)
-					})
-					$(".item").append(h)
+				if (res){
+					window.location.href=res
+				}
+
 			})
 		}
 	})
