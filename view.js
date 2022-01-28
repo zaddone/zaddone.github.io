@@ -10,7 +10,15 @@ function play(url){
       });
     });
   }else{
+	$("video").attr("controls","controls")
+	$("video").attr("autoplay","autoplay")
+	$("video").attr("x-webkit-airplay","true")
+	$("video").attr("preload","auto")
+	$("video").attr("playsinline","true")
+	$("video").attr("webkit-playsinline","true")
+	$("video").attr("x5-video-player-typ","h5")
 	$("source").attr("src",url)
+	
   }
 }
 function showfirst(){
