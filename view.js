@@ -25,14 +25,14 @@ function showfirst(){
  $('#nav-tab button').first().click()
 }
 $(document).ready(function(){
-$('#search').attr('action','#')
-  $('#search').submit(function(){
-    let k = $('#search input').val()
-    if (!k)return
-    $.get("https://zaddone.tk/search/?q=" + encodeURIComponent(k), function(res) {
-      if (res)window.location.href=res;
-    })
-  })
+  //$('#search').attr('action','#')
+  //$('#search').submit(function(){
+  //  let k = $('#search input').val()
+  //  if (!k)return
+  //  $.get("https://zaddone.tk/search/?q=" + encodeURIComponent(k), function(res) {
+  //    if (res)window.location.href=res;
+  //  })
+  //})
    $(".video-btn").click(function(){
         $(".btn-dark").removeClass("btn-dark")
      $(this).addClass("btn-dark")
