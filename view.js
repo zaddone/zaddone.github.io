@@ -9,7 +9,12 @@ function play(url){
         video.play()
       });
     });
+  }else{
+	//$("source").attr("src",url)
   }
+}
+function showfirst(){
+ $('#nav-tab button').first().click()
 }
 $(document).ready(function(){
    $(".video-btn").click(function(){
@@ -19,11 +24,32 @@ $(document).ready(function(){
      vinfo={url:$(this).attr('video-url'),name:$(this).parent().attr("id")}
        //console.log(vinfo.name) 
      play(vinfo.url)
-     if(window.localStorage)localStorage.setItem("videoInfo",JSON.stringify(vinfo))
+     if(window.localStorage){
+       let title= $('title').text().split('_')[0]
+       localStorage.setItem(title,JSON.stringify(vinfo))
+       let list_db = localStorage.getItem('list');        
+       if (list_db   ){
+         if (list_db.indexOf(title)<0){         
+           let list =  list_db.split(',')
+           list.push(title)         
+           if (list.length>30)
+             localStorage.removeItem(list.shift())
+           
+           list_db= list.join(',')
+            localStorage.setItem('list',title)
+         }
+       }else{
+         localStorage.setItem('list',title)
+         
+       }       
+     }
   })   
   if(window.localStorage){
-    let vinfo = localStorage.getItem("videoInfo");
-    if (!vinfo)return; 
+    let vinfo = localStorage.getItem($('.video-title').text());
+    if (!vinfo){
+      showfirst()
+      return
+    }; 
      console.log(vinfo)  
     let h = JSON.parse(vinfo)   
    $(".nav-link").removeClass("active")
@@ -35,5 +61,7 @@ $(document).ready(function(){
        $(this).click()
      }
    })
+    }else{
+      showfirst()
     }
 });  
