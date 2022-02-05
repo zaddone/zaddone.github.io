@@ -40,9 +40,9 @@ $(document).ready(function(){
      vinfo={url:$(this).attr('video-url'),name:$(this).parent().attr("id")}
        //console.log(vinfo.name)
      play(vinfo.url)
+     let title= $('title').text().split("_")[0]
      if(window.localStorage){
-       let title= $('.video-title').text()
-       localStorage.setItem(title,JSON.stringify(vinfo))
+		localStorage.setItem(title,JSON.stringify(vinfo))
        let list_db = localStorage.getItem('list');
        if (list_db  ){
          if (list_db.indexOf(title)<0){
@@ -59,6 +59,8 @@ $(document).ready(function(){
 
        }
      }
+	 $.get("https://zaddone.tk/set_hot" , {name:title,img:$("video").attr("poster")})
+
   })
   if(window.localStorage){
     let vinfo = localStorage.getItem($('.video-title').text());
