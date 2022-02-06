@@ -1,7 +1,8 @@
-var video = document.getElementById('my_video');
-var hls = new Hls();
+
 function play(url){
   if (Hls.isSupported()) {
+	var video = document.getElementById('my_video');
+	var hls = new Hls();
     hls.attachMedia(video);
     hls.on(Hls.Events.MEDIA_ATTACHED, function () {
        hls.loadSource(url);
