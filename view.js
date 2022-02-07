@@ -54,7 +54,7 @@ $(document).ready(function() {
 			url: $(this).attr('video-url'),
 			tag: $(this).parent().attr("id"),
 			Img:img,
-			Dir:window.location,
+			Dir:window.location.pathname,
 		}
 		//console.log(vinfo.name)
 		play(vinfo.url)
