@@ -31,7 +31,7 @@ function getHistoryList(){
 		h.Name = v
 		hdb += dataToHtml_(h)
 	})
-	$(".item").prepend(h)
+	$(".item").prepend(hdb)
 
 }
 
