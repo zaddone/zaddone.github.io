@@ -11,14 +11,16 @@ function play(url){
     });
   }else{
     var video = document.getElementById('my_video');
-	$("video").attr("controls","controls")
-	$("video").attr("autoplay","autoplay")
-	$("video").attr("x-webkit-airplay","true")
-	$("video").attr("preload","auto")
-	$("video").attr("playsinline","true")
-	$("video").attr("webkit-playsinline","true")
-	$("video").attr("x5-video-player-typ","h5")
-	$("source").attr("src",url)
+	video.pause()
+	video.setAttribute("src",url)
+	video.setAttribute("x5-video-player-fullscreen","true")
+	video.setAttribute("x5-video-player-type","h5")
+	video.setAttribute("x5-playsinline","true")
+	video.setAttribute("webkit-playsinline","true")
+	video.setAttribute("playsinline","true")
+	video.setAttribute("x-webkit-airplay","true")
+	video.controls = true
+	video.load()
     video.play()
 	
   }
@@ -70,7 +72,7 @@ $(document).ready(function(){
       showfirst()
       return
     };
-     console.log(vinfo)
+    console.log(vinfo)
     let h = JSON.parse(vinfo)
    $(".nav-link").removeClass("active")
    $("#"+h.name+"-tab").addClass("active")
