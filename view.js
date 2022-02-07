@@ -1,7 +1,6 @@
-
 function play(url){
   if (Hls.isSupported()) {
-	var video = document.getElementById('my_video');
+    var video = document.getElementById('my_video');
 	var hls = new Hls();
     hls.attachMedia(video);
     hls.on(Hls.Events.MEDIA_ATTACHED, function () {
@@ -11,6 +10,7 @@ function play(url){
       });
     });
   }else{
+    var video = document.getElementById('my_video');
 	$("video").attr("controls","controls")
 	$("video").attr("autoplay","autoplay")
 	$("video").attr("x-webkit-airplay","true")
@@ -19,6 +19,7 @@ function play(url){
 	$("video").attr("webkit-playsinline","true")
 	$("video").attr("x5-video-player-typ","h5")
 	$("source").attr("src",url)
+    video.play()
 	
   }
 }
